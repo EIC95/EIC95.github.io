@@ -4,6 +4,6 @@ The startup doesn't actually exist; I just materialized my own startup idea in a
 
 Credits: Please note that I used videos from Google's YouTube channel and other channels.
   
-I also didn't do the mobile version, so the website is not responsive.  
+I also didn't make the mobile version, so the website is not responsive.  
   
 You can find the website here: [eic95.github.io](https://eic95.github.io/)
