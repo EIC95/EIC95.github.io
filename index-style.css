@@ -1,0 +1,245 @@
+body{
+     margin: 0px;
+     box-sizing: 0px;
+     background-color: black;
+     color: rgb(255, 255, 255);
+     font-family: Arial, Helvetica, sans-serif;
+     height: 100%;
+     width: 100%;
+}
+
+header{
+     background-image: url(img/vr-headset.jpg);
+     background-repeat: no-repeat;
+     background-size: 100%;
+     margin-bottom: 50px;
+}
+
+.navbar-container{
+     display: flex;
+     padding-top: 10px;
+     justify-content: center;
+     width: 100%;
+     position: sticky;
+     top: 0px;
+     bottom: 0px;
+}
+
+.navbar{
+     justify-content: center;
+     justify-content: space-around;
+     display: flex;
+     align-items: center;
+     height: 50px;
+     border-radius: 50px;
+     background-color: #000000;
+     opacity: 0.7;
+     width: 700px;
+}
+
+.navbar a{
+     text-decoration: none;
+     color: #ffffff;
+     padding: 10px;
+     border-radius: 50px;
+     margin-left: 10px;
+     margin-right: 10px;
+}
+
+.navbar a:hover{
+     background-color: rgb(255, 255, 255);
+     color: #000000;
+     opacity: 0.4;
+}
+
+.hyve-logo{
+     width: 80px;
+     height: auto;
+     margin-left: 10px;
+     margin-right: 10px;
+}
+
+.quote{
+     width: 1000px;
+     height: 500px;
+     line-height: 100px;
+     font-size: 35px;
+     margin-left: 70px;
+     color: white;
+}
+
+.big-title{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     font-weight: bolder;
+     font-size: xx-large;
+}
+
+.first-article-container{
+     margin: 50px;
+     border-radius: 10px;
+     background-image: url(img/degrade-bleu.png);
+     background-size: 100%;
+     display: flex;
+}
+
+
+.article-image{
+     margin-right: 50px;
+     width: 350px;
+     height: 350px;
+}
+
+.article-paragraph{
+     text-align: center;
+     line-height: 35px;
+     font-size: medium;
+     color: #ffffff;
+     margin-right: 50px;
+}
+
+.paragraph-container{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+}
+
+.second-article-container{
+     margin: 50px;
+     padding: 50px;
+     border-radius: 10px;
+     background-image: url(img/degrade-bleu.png);
+     background-size: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+}
+
+.profil-container{
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     width: 150px;
+}
+
+.profil-container img{
+     width: 200px;
+}
+
+.profil-container p{
+     text-align: center;
+}
+
+.render-image{
+     width: 500px;
+     height: auto;
+     border-radius: 5px;
+     margin-bottom: 10px;
+}
+
+.third-article-container{
+     margin: 50px;
+     padding: 50px;
+     border-radius: 10px;
+     background-image: url(img/degrade-bleu.png);
+     background-size: 100%;
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+}
+
+.button{
+    padding: 10px;
+    border-radius: 50px;
+    border: solid;
+    border-width: 2px;
+    border-color: darkviolet;
+    color: white;
+    text-decoration: none; 
+    height: 20px;
+}
+
+.button:hover{
+     background-color: #000000;
+     opacity: 0.7;
+}
+
+.button-container{
+     margin-top: 10px;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+}
+
+.fourth-article-image{
+     margin-right: 50px;
+     width: 350px;
+     height: 350px;
+     margin-left: 20px;  
+}
+
+.second-container{
+     display: flex;
+     flex-wrap: wrap;
+}
+
+.footer{
+     background-image: url(img/degrade-bleu.png);
+     background-size: 100%;
+     margin-top: 200px;
+     padding: 50px; 
+}
+
+.first-footer-div{
+     display: flex;
+     justify-content: center;
+     justify-content: space-around;
+}
+
+.second-footer-div{
+     display: flex;
+     justify-content: center;
+     margin: 20px;
+}
+
+.social{
+     width: 200px;
+     display: flex;
+     flex-wrap: wrap;
+}
+
+.social-icon{
+     width: 40px;
+     margin: 10px;
+}
+
+.social-icon-threads{
+     width: 30px;
+     margin: 10px;
+}
+
+.nav-link{
+     text-decoration: none;
+     color: white;
+}
+
+.nav-link:hover{
+     color: gray;
+}
+
+.liste{
+     margin: 10px;
+}
+
+@keyframes apparition {
+     0% {
+         opacity: 0;
+         transform: translateY(100%);
+     }
+     100% {
+         opacity: 1;
+         transform: translateY(0);
+     }
+ }
