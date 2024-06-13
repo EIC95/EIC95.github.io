@@ -407,4 +407,23 @@ header {
           margin-left: 20px;
           height: 125px;
      }
+
+     .fourth-article-image{
+          width: 200px;
+          height: 200px;
+     }
+
+     .first-footer-div{
+          margin-left: 25px;
+     }
+
+     .article-image{
+          margin: 0px;
+          width: 200px;
+          height: 200px;
+     }
+
+     .big-title{
+          font-size: small;
+     }
 }
