@@ -1,6 +1,6 @@
 html,body {
      margin: 0px;
-     box-sizing: 0px;
+     box-sizing: border-box;
      background-color: black;
      color: rgb(255, 255, 255);
      font-family: Arial, Helvetica, sans-serif;
@@ -281,7 +281,7 @@ header {
 }
 
 
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
      .quote {
           height: 350px;
           line-height: 75px;
@@ -295,7 +295,7 @@ header {
      }
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 900px) {
      .quote {
           height: 275px;
           line-height: 60px;
@@ -331,7 +331,7 @@ header {
      }
 }
 
-@media only screen and (max-width: 430px) {
+@media (max-width: 450px) {
      .render-image {
           width: 250px;
      }
@@ -400,7 +400,7 @@ header {
      }
 }
 
-@media only screen and (max-width:380px){
+@media (max-width:350px){
      .quote{
           line-height: 25px;
           font-size: 12px;

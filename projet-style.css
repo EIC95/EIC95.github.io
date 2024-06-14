@@ -1,6 +1,6 @@
 body{
      margin: 0px;
-     box-sizing: 0px;
+     box-sizing: border-box;
      background-color: black;
      color: rgb(255, 255, 255);
      font-family: Arial, Helvetica, sans-serif;
@@ -174,7 +174,7 @@ body{
      display: none;
 }
 
-@media only screen and (max-width: 1024px){
+@media  (max-width: 1024px){
      .navbar{
           margin-top: 20px;
      }
@@ -255,7 +255,7 @@ body{
      left: 0;
 }
 
-@media only screen and (max-width :768px){
+@media  (max-width :900px){
      .section-container{
           flex-wrap: wrap;
           justify-content: center;        
@@ -311,7 +311,7 @@ body{
      }
 }
 
-@media only screen and (max-width:430px){
+@media  (max-width:450px){
      .navbar-container{
           display: none;
      }
@@ -378,7 +378,7 @@ body{
      }
 }
 
-@media only screen and (max-width:380px){
+@media  (max-width:400px){
      .paragraph-content{
           width: 300px;
           font-size: small;
@@ -413,7 +413,7 @@ body{
      }
 }
 
-@media only screen and (max-width:330px){
+@media  (max-width:350px){
      .big-logo{
           width: 300px;
           margin-top: 0px;

@@ -1,6 +1,6 @@
 body{
      margin: 0px;
-     box-sizing: 0px;
+     box-sizing: border-box;
      background-color: black;
      color: rgb(255, 255, 255);
      font-family: Arial, Helvetica, sans-serif;
@@ -13,7 +13,7 @@ body{
      padding-top: 10px;
      justify-content: center;
      width: 100%;
-     position: sticky;
+     position: fixed;
      top: 0px;
      bottom: 0px;
 }
@@ -101,7 +101,7 @@ body{
 
 .big-title-container{
      display: flex;
-     margin: 50px;
+     margin-top: 50px;
      justify-content: center;
      margin-bottom: 100px;
 }
@@ -113,13 +113,12 @@ body{
 article{
      display: flex;
      width: 1000px;
-     height: 200px;
+     height: auto;
      margin-bottom: 50px;
      margin-left: 100px;
 }
 
 .article-image{
-     align-items: start;
      margin-right: 15px;
 }
 
@@ -222,4 +221,174 @@ article{
 .asterix{
      color: red;
      margin-right: 5px;
+}
+
+@media (max-width:1024px){
+     article{
+          margin-left: 50px;
+          width: 900px;
+     }
+
+     .newsletter{
+          margin-left: 50px;
+     }
+}
+
+@media (max-width:820px){
+     article{
+          width: 675px;
+     }
+
+     .article-image{
+          width: 150px;
+     }
+
+     .form-container{
+          width: 500px;
+     }
+}
+
+.toggle-sidebar {
+     display: none;
+}
+
+.sidebar {
+     position: fixed;
+     top: 0;
+     left: -250px;
+     width: 250px;
+     height: 100%;
+     background-color: rgba(0, 0, 0, 1);
+     z-index: 1;
+     color: #ffffff;
+     padding-top: 60px;
+     transition: left 0.3s ease-in-out;
+}
+
+.sidebar img.hyve-logo {
+     display: block;
+     margin: 0 auto 20px;
+     width: 80%;
+}
+
+.sidebar a {
+     padding: 10px 15px;
+     text-decoration: none;
+     font-size: 18px;
+     color: white;
+     display: block;
+}
+
+
+.close-btn {
+     position: absolute;
+     top: 10px;
+     right: 25px;
+}
+
+.open-btn {
+     background-color: rgba(255, 255, 255, 0);
+     display: none;
+     margin: 0px;
+     margin-left: 20px;
+     padding-top: 20px;
+}
+
+.toggle-sidebar:checked ~ .sidebar {
+     left: 0;
+}
+
+@media (max-width: 450px){
+     .navbar-container{
+          display: none;
+     }
+
+     .open-btn {
+          display: block;
+     }
+
+     .sidebar {
+          left: -250px;
+     }
+
+     .newsletter{
+          width: 300px;
+          margin-left: 40px;
+     }
+
+     .form-container{
+          width: 300px;
+     }
+
+     article{
+          flex-wrap: wrap;
+          justify-content: center;
+          width: 325px;
+     }
+
+     .article-image{
+          margin-bottom: 10px;
+     }
+
+     .text{
+         width: 300px; 
+     }
+
+     .footer{
+          margin-top: 100px;
+     }
+
+     .first-footer-div{
+          display: block;
+          margin-left: 50px;
+     }
+
+     .submit-btn{
+          margin-left: 0px;
+     }
+
+     .big-title-container{
+          margin-bottom: 25px;
+     }
+}
+
+@media (max-width:400px){
+     .newsletter{
+          margin-left: 15px
+     }
+
+     article{
+          margin-left: 20px;
+     }
+}
+
+@media (max-width: 350px){
+     .form-container{
+          width: 250px;
+     }
+
+     .article-image{
+          width: 100px;
+     }
+
+     article{
+          width: 300px;
+          margin-left: 10px;
+          
+     }
+
+     .text{
+          font-size: smaller;
+          text-align: start;
+          width: 250px;
+     }
+
+     .newsletter{
+          margin-left: 10px;
+          margin-top: 50px;
+     }
+
+     .first-footer-div{
+          margin-left: 20px;
+     }
 }
