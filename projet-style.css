@@ -309,6 +309,10 @@ body{
      .big-logo-container{
           margin-bottom: 0px;
      }
+
+     .paragraph-content{
+          font-size: x-large;
+     }
 }
 
 @media  (max-width:450px){
@@ -376,6 +380,10 @@ body{
           display: block;
           margin-left: 30px;
      }
+
+     .paragraph-content{
+          font-size: larger;
+     }
 }
 
 @media  (max-width:400px){
@@ -411,6 +419,10 @@ body{
           height: 150px;
           margin: 0px;
      }
+
+     .paragraph-content{
+          font-size: larger;
+     }
 }
 
 @media  (max-width:350px){
@@ -445,5 +457,9 @@ body{
           width: 300px;
           height: 200px;
           margin: 0px;
+     }
+
+     .paragraph-content{
+          font-size: larger;
      }
 }

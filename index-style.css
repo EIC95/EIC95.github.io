@@ -142,7 +142,6 @@ header {
 .article-paragraph {
      text-align: center;
      line-height: 35px;
-     font-size: medium;
      color: #ffffff;
      margin-right: 50px;
 }
@@ -329,6 +328,10 @@ header {
      .first-footer-div {
           margin-left: 100px;
      }
+
+     .article-paragraph{
+          font-size: large;
+     }
 }
 
 @media (max-width: 450px) {
@@ -394,6 +397,10 @@ header {
      .footer{
           margin-top: 100px;
      }
+
+     .article-paragraph{
+          font-size: large;
+     }
 }
 
 @media (max-width:350px){
@@ -421,5 +428,9 @@ header {
 
      .big-title{
           font-size: small;
+     }
+
+     .article-paragraph{
+          font-size: large;
      }
 }
