@@ -134,12 +134,13 @@ header {
 
 .article-image {
      margin-right: 50px;
+     margin-top: 70px;
      width: 350px;
-     height: 350px;
+     height: auto;
 }
 
 .article-paragraph {
-     text-align: center;
+     text-align: justify;
      line-height: 35px;
      color: #ffffff;
      margin-right: 50px;
@@ -336,7 +337,7 @@ header {
 
 @media (max-width: 450px) {
      .render-image {
-          width: 250px;
+          width: 300px;
      }
 
      .navbar-container{
@@ -367,8 +368,9 @@ header {
 
      .article-image{
           width: 250px;
-          height: 250px;
+          height: auto;
           margin-left: 50px ;
+          margin-top: 10px;
      }
 
      .second-article-container{
