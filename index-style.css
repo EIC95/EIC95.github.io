@@ -96,10 +96,6 @@ header {
      padding-top: 10px;
 }
 
-.toggle-sidebar:checked ~ .sidebar {
-     left: 0;
-}
-
 .hyve-logo {
      width: 80px;
      height: auto;

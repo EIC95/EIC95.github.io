@@ -251,9 +251,7 @@ body{
      padding-top: 20px;
 }
 
-.toggle-sidebar:checked ~ .sidebar {
-     left: 0;
-}
+
 
 @media  (max-width :900px){
      .section-container{

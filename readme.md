@@ -1,7 +1,15 @@
-This is a startup website I made for a school project only with html and css.  
-  
-The startup doesn't actually exist; I just materialized my own startup idea in a website for the project.  
+# HTML/CSS Exam Project
 
-Credits: Please note that I used videos from Google's YouTube channel and other channels.  
-  
-You can find the website here: [eic95.github.io/HYVE-website](https://eic95.github.io/HYVE-website/)
+## Project Overview
+This project involves creating a website for a fictional startup specializing in virtual reality. This site was developed as part of a school assignment, showcasing a concept for a virtual reality company that I envisioned for this project.
+
+## Technologies Used
+- HTML: Provides the structure of the website.
+- CSS: Handles the styling and design.
+- JavaScript: Added after the exam to enhance interactivity, particularly for implementing a responsive sidebar.
+
+## Credits
+- The videos used on the site are sourced from Google's YouTube channel and other channels. All credits go to the original creators of these videos.
+
+## Link to the Website
+You can view the website at the following link: [eic95.github.io/HYVE-website](https://eic95.github.io/HYVE-website/)
