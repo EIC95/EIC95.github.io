@@ -1,7 +1,7 @@
 # HTML/CSS Exam Project
 
 ## Project Overview
-This project involves creating a website for a fictional startup specializing in virtual reality. This site was developed as part of a school assignment, showcasing a concept for a virtual reality company that I envisioned for this project.
+This project involves creating a website for a fictional startup specializing in virtual reality. This site was developed as part of a school assignment, showcasing a concept for a virtual reality company that I envisioned for this project. The website also includes a mobile version to ensure responsiveness across different devices.
 
 ## Technologies Used
 - HTML: Provides the structure of the website.
